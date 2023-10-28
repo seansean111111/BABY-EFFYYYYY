@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-color: #000;
+  --dark-color: #c5f7a4;
 }
 
 body {
@@ -1314,6 +1314,11 @@ body {
   0% {
     transform: scale(0);
   }
+}
+.container * {
+  -webkit-animation-play-state: paused !important;
+          animation-play-state: paused !important;
+}
 }
 .container * {
   -webkit-animation-play-state: paused !important;
